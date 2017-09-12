@@ -2,61 +2,7 @@
 /* Template Name:Actualités */
     include "header.php";
 ?>
-<header>
-        <div class="navbar-fixed">
-            <nav>
-                <div class="nav-wrapper row">
-                    <a id="logo" href="index.html" class="brand-logo col l1 offset-l1">
-                        <div class="col col s6 m6 l9">
-                            <div id="imageLogo">
-                                <img src="img/8.jpg" alt="Accueil" class="responsive-img">
-                                <div id="cache"></div>
-                                <!-- Cache du hover souris-->
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#" data-activates="mobile-demo" class="button-collapse">
-                        <i class="material-icons">menu</i>
-                    </a>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="index.html">Accueil</a></li>
-                        <li><a href="apropos.html">A propos</a></li>
-                        <li class="active"><a href="actualites.html">Actualités</a></li>
-                        <li><a href="ecriture.html">Ecriture</a></li>
-                        <li><a href="discographie.html">Discographie</a></li>
-                        <li><a href="galeries.html">Galeries</a></li>
-                        <li><a href="livredor.html">Livre d'Or</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a target="_blank" href="https://www.facebook.com/herve.vilard.officielle/"><i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i></a></li>
-                    </ul>
-                    <ul class="side-nav" id="mobile-demo">
-                        <li class="user-details green darken-2">Coucouc!!!!!!
-                            <div class="row">
-                                <div class="col col s4 m4 l4">
-                                    <div id="imageMobile">
-                                        <img src="img/8.jpg" alt="Accueil" class="circle responsive-img valign profile-image">
-                                    </div>
-                                </div>
-                                <div class="col col s8 m8 l8">
-                                    <p class="user-roal">Faîtes votre choix !</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li><a href="index.html">Accueil</a></li>
-                        <li><a href="apropos.html">A propos</a></li>
-                        <li class="active"><a href="actualites.html">Actualités</a></li>
-                        <li><a href="ecriture.html">Ecriture</a></li>
-                        <li><a href="discographie.html">Discographie</a></li>
-                        <li><a href="galeries.html">Galeries</a></li>
-                        <li><a href="livredor.html">Livre d'Or</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <div class="divider grey"></div>
-                        <a target="_blank" href="https://www.facebook.com/herve.vilard.officielle/"><i class="fa fa-3x fa-facebook-official" aria-hidden="true"></i></a>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
+
 
 
     <h2>Actualités</h2>
