@@ -3,7 +3,7 @@
     include "header.php";
 ?>
 
-
+<!-- Pour le 13/09/17 par Pierrick -->
 
     <h2>Actualités</h2>
     <!-- Affiche du concert à l'Olympia en 2018 -->
