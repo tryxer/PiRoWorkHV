@@ -16,14 +16,14 @@
 	<!-- ronan -->
 	<meta http-equiv="content-type" content="text/html" charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="http://localhost:8888/SiteHerve/wp-content/themes/piro/css/font-awesome.css">
-    <link type="text/css" rel="stylesheet" href="http://localhost:8888/SiteHerve/wp-content/themes/piro/css/materialize.css" media="screen,projection" />
+    <link rel="stylesheet" href="http://localhost:8888/PiRoWorkHV/wp-content/themes/piro/css/font-awesome.css">
+    <link type="text/css" rel="stylesheet" href="http://localhost:8888/PiRoWorkHV/wp-content/themes/piro/css/materialize.css" media="screen,projection" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="http://localhost:8888/SiteHerve/wp-content/themes/piro/css/style.css">
+    <link type="text/css" rel="stylesheet" href="http://localhost:8888/PiRoWorkHV/wp-content/themes/piro/css/style.css">
 	
-	<script type="text/javascript" src="http://localhost:8888/SiteHerve/wp-content/themes/piro/js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="http://localhost:8888/SiteHerve/wp-content/themes/piro/js/materialize.js"></script>
-    <script type="text/javascript" src="http://localhost:8888/SiteHerve/wp-content/themes/piro/js/script.js"></script>
+	<script type="text/javascript" src="http://localhost:8888/PiRoWorkHV/wp-content/themes/piro/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="http://localhost:8888/PiRoWorkHV/wp-content/themes/piro/js/materialize.js"></script>
+    <script type="text/javascript" src="http://localhost:8888/PiRoWorkHV/wp-content/themes/piro/js/script.js"></script>
 	<!-- ronan -->
 
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -57,7 +57,7 @@
                             <div class="row">
                                 <div class="col col s4 m4 l4">
                                     <div id="imageMobile">
-                                        <img src="http://localhost:8888/SiteHerve/wp-content/uploads/2017/09/herveeTEST.png" alt="Accueil" class="circle responsive-img valign profile-image">
+                                        <img src="http://localhost:8888/PiRoWorkHV/wp-content/uploads/2017/09/herveeTEST.png" alt="Accueil" class="circle responsive-img valign profile-image">
                                     </div>
                                 </div>
                                 <div class="col col s8 m8 l8">
@@ -80,7 +80,7 @@
 		</div>
 		
 		<section id="accueil" class="scrollspy">
-					<img id="imageAccueil"  data-caption="Hervé Vilard" class="responsive-img" src="http://localhost:8888/SiteHerve/wp-content/uploads/2017/09/14.jpg" alt="#" />
+					<img id="imageAccueil"  data-caption="Hervé Vilard" class="responsive-img" src="http://localhost:8888/PiRoWorkHV/wp-content/uploads/2017/09/14.jpg" alt="#" />
 				
 				<div id="accueilExpand" class="show-on-large">
 					<a id="accueilExpandLink" href="#textHv"><i class="medium material-icons">expand_more</i></a>
