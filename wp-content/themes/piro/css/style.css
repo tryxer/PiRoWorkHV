@@ -1,0 +1,156 @@
+#wpadminbar {
+    position: fixed!important;
+}
+
+body {
+    background-color: orange;
+}
+
+li.user-details>div.row {
+    margin-top: 16px!important;
+}
+
+.side-nav::-webkit-scrollbar {
+    display: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.current_page_item {
+    background-color: rgba(121, 250, 121, 0.31);
+}
+
+#logo {
+    background: url(http://localhost:8888/SiteHerve/wp-content/uploads/2017/09/herveeTEST.png) repeat 0 0;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    width: 64px;
+    height: 100%;
+}
+
+.fixSizeIconeFacebook {
+    height: 64px;
+    overflow: hidden;
+}
+
+p.accroche {
+    font-size: 24px;
+    margin-left: 4.5rem;
+}
+
+.articles {
+    background-color: rgba(217, 249, 221, 0.99);
+}
+
+#accueil {
+    max-height: calc(100vh - (64px));
+    overflow: hidden;
+}
+
+#imageAccueil {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    max-height: 100%;
+}
+
+#accueilExpand {
+    animation: MoveUpDown 1.8s linear infinite;
+    position: absolute;
+    bottom: 0;
+    display: none;
+    z-index: 996;
+    width: 100%;
+    text-align: center;
+}
+
+@keyframes MoveUpDown {
+    0% {
+        bottom: 0;
+    }
+    50% {
+        bottom: 35px;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+
+#accueilExpandLink {
+    height: 60px;
+    width: 60px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    bottom: 35px;
+    border-radius: 100%;
+    background-color: white;
+    color: #000000;
+    /* offset-x | offset-y | blur-radius | color */
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.54);
+}
+
+#accueilExpandLink:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+#accueilExpandLink,
+#goToTopLink {
+    text-align: center;
+}
+
+#accueilExpandLink>i,
+#goToTopLink>i {
+    width: 60px;
+    height: 60px;
+}
+
+i.fa-facebook-official {
+    color: #3B5998;
+}
+
+#rightNavFloat {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 8%;
+}
+
+#rightNavFloat ul {
+    background-color: rgba(0, 0, 0, 0.70);
+    width: 120px;
+}
+
+.parallax-container {
+    height: 350px;
+}
+
+#goToTop {
+    width: 60px;
+    position: fixed;
+    right: 10px;
+    display: none;
+    bottom: 10px;
+}
+
+#goToTopLink:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+#goToTopLink {
+    height: 60px;
+    width: 60px;
+    position: relative;
+    display: block;
+    border-radius: 100%;
+    background-color: white;
+    color: #000000;
+    /* offset-x | offset-y | blur-radius | color */
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.54);
+}
