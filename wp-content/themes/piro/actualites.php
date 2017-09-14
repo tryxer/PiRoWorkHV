@@ -3,98 +3,140 @@
     include "header.php";
 ?>
 
-<!-- Pour le 13/09/17 par Pierrick -->
 
-    <h2>Actualités</h2>
-    <!-- Affiche du concert à l'Olympia en 2018 -->
-    <div class="container">
+
+    <!-- Zone Modifiée le 13/09/17 =========== -->
+
+    <!-- ACTUALITE PRINCIPALE -->
+    <div class="row">
+        <h2 class="white-text titreSection col s12 offset-l1">Actualités</h2>
+    </div>
+    <!--div class="container"-->
+    <div id="actualitePrincipale">
         <div class="row">
-            <div class="col s12 m3 l3">
-                <img class="responsive-img materialboxed" src="img/affiche.jpg">
-            </div>
+            <!-- Affiche concert -->
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m12 l4">
+                        <img class="responsive-img materialboxed" src="img/affiche.jpg">
+                    </div>
+                        <!-- Texte d'accroche -->
+                    <div class="row">
+                        <div class="col s12 m12 l4">
+                            <p class="white-text text-flow text-lighten-5">
+                                Chers Amis et Admirateurs, je viens d'entreprendre ma tournée d'adieux à la chanson à travers quelques capitales du monde. Celle-ci m'emmènera à Mexico, Bogota, Pragues et quelques villes d'Europe et s'achèvera à Paris en Mai 2018.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- ici pour les postes -->
+
+
+                    <!-- Bouton 'Aller à la Boîte à messages' -->
+                    <li>
+                        <p class="black-text btn waves-effect waves-teal btn light-green accent-3">Aller à la Boîte à messages...</p>
+                    </li>
+                </div><!--/row-->
+            </div><!--/container-->
+            <!-- Liste des 5 derniers 'post' -->
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 l12">
+                        <ul class="collapsible" data-collapsible="accordion">
+                            <li>
+                                <div class="collapsible-header  orange lighten-2">
+                                    <img src="img/avatars/femme.jpg" alt="Avatar femme" class="circle responsive-img">
+                                    <div class="col s12">Ipsum</div>
+                                </div>
+                                <div class="collapsible-body white">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header  orange lighten-3">
+                                    <img src="img/avatars/homme.jpg" alt="Avatar homme" class="circle responsive-img">
+                                    <div class="col s12">Ipsum</div>
+                                </div>
+                                <div class="collapsible-body white">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header  orange lighten-2">
+                                    <img src="img/avatars/femme.jpg" alt="Avatar femme" class="circle responsive-img">
+                                    <div class="col s12">Ipsum</div>
+                                </div>
+                                <div class="collapsible-body white">
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header  orange lighten-3">
+                                    <img src="img/avatars/homme.jpg" alt="Avatar homme" class="circle responsive-img">
+                                    <div class="col s12">Ipsum</div>
+                                </div>
+                                <div class="collapsible-body white">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header  orange lighten-2">
+                                    <img src="img/avatars/femme.jpg" alt="Avatar femme" class="circle responsive-img">
+                                    <div class="col s12">Ipsum</div>
+                                </div>
+                                <div class="collapsible-body white">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                            </li>
+                        </ul><!--/accordion-->
+                    </div><!--/col l6-->
+                </div>
+            </div><!--container-->
+        </div><!--/row-->
+    </div><!--/actualitePrincipale-->
+    <!-- ACTUALITES Suivantes -->
+    <div class="container">
+    <div class="row">
+    <!-- ACTUALITE Suivante 1 -->
+    <div id="actualiteSuivante1">
+    <!-- Illustration actualité 1 -->
+        <div class="col s12 m6 l3">
+            <img class="responsive-img materialboxed" src="img/New1.jpg">
         </div>
     </div>
-
-    <div class="container">
-        <!-- Modal Trigger -->
-        <!--a class="waves-effect waves-light btn modal-trigger" href="#boiteAmessageActualites">Obtenir plus d'infos...</a-->
-        <a class="waves-effect waves-light btn modal-trigger" href="#tabs-swipe-demo">Obtenir plus d'infos...</a>
-        <!-- Modal Structure -->
-        <!--div id="boiteAmessageActualites"-->
-
-
-        <ul id="tabs-swipe-demo">
-            <!--class="tabs"-->
-            <li><a href="#boiteAmessages">Obtenir plus d'infos...</a></li>
-        </ul>
-        <li class="tab col s3"><a class="active" href="#test-swipe-1">Test 1</a></li>
-        <li class="tab col s3"><a href="#test-swipe-2">Test 2</a></li>
-
-        <div id="test-swipe-1" class="col s12 blue">Page principale</div>
-        <div id="boitetest-swipe-2" class="col s12 green">Formulaire</div>
-
-
-
-
-
-        <div class="row">
-
-            <section class="col s12 m12 l12">
-
-                <form class="z-depth-5">
-
-
-                    <div class="progress spinner-layer spinner-blue">
-                        <div class="indeterminate"></div>
-                    </div>
-
-                    <h4>Boîte à messages Actualités</h4>
-                    <p>Pour que votre message soit pris en compte, pensez à renseigner tous les champs.</p>
-
-                    <!-- Champ Nom -->
-                    <div class="row">
-                        <div class="input-field col s12 m6">
-                            <input id="last_name" type="text" class="validate">
-                            <label for="last_name">Nom</label>
-                        </div>
-                        <!-- Champ Prénom -->
-                        <div class="input-field col s12 m6">
-                            <input id="first_name" type="text" class="validate">
-                            <label for="first_name">Prénom</label>
-                        </div>
-                    </div>
-                    <!-- Champ adresse mail -->
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <input id="email" type="email" class="validate">
-                            <label for="email">Adresse mail</label>
-                        </div>
-                    </div>
-                    <!-- Champ message -->
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <!-- Faut'il laisser la class 'data-length' ? -->
-                            <textarea id="textarea1" class="materialize-textarea" data-length="400"></textarea>
-                            <label for="textarea1">Votre message</label>
-                        </div>
-                        <p class="text-flow">
-                            Attention : votre message ne peut excéder 400 caractères.
-                        </p>
-                    </div>
-                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Annuler</a>
-                    <!-- bouton send à finir 'mailto'-->
-                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Envoyer</a>
-                </form>
-
-            </section>
-            <!-- col s12 m12 l12 -->
+    <!-- ACTUALITE Suivante 2 -->
+    <div id="actualiteSuivante2">
+    <!-- Illustration actualité 2 -->
+        <div class="col s12 m6 l3">
+            <img class="responsive-img materialboxed" src="img/New2.jpg">
         </div>
-        <!-- row -->
-
     </div>
-    <!--/boiteMessages   SWIP   -->
+    <!-- ACTUALITE Suivante 3 -->
+    <div id="actualiteSuivante3">
+        <!-- Illustration actualité 3 -->
+        <div class="col s12 m6 l3">
+            <img class="responsive-img materialboxed" src="img/New3.jpg">
+        </div>
     </div>
-    <!--/container-->
+    <!-- ACTUALITE Suivante 4 -->
+    <div id="actualiteSuivante4">
+        <!-- Illustration actualité 4 -->
+        <div class="col s12 m6 l3">
+            <img class="responsive-img materialboxed" src="img/New4.jpg">
+        </div>
+    </div>
+    </div><!-- /'ROW' série 1 -->
+    <div class="row">
+    <!-- ACTUALITE Suivante 5 -->
+    <div id="actualiteSuivante5">
+    <!-- Illustration actualité 5 -->
+        <div class="col s12 m4 l4">
+            <img class="responsive-img materialboxed" src="img/0Accueil.png">
+        </div>
+    </div>
+    </div><!-- /'ROW' série 2 -->
+    </div>
+    
+    <!-- Fin de la zone modifiée ============= -->
 
 
 
