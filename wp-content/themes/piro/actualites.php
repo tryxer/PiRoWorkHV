@@ -100,7 +100,7 @@
     <div id="actualiteSuivante1">
     <!-- Illustration actualité 1 -->
         <div class="col s12 m6 l3">
-            <img class="responsive-img materialboxed" src="img/New1.jpg">
+            <img class="responsive-img materialboxed" src="http://localhost:8888/SiteHerve/wp-content/uploads/2017/09/New1.jpg">
         </div>
     </div>
     <!-- ACTUALITE Suivante 2 -->
