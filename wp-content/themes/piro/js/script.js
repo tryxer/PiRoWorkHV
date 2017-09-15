@@ -1,4 +1,5 @@
-$(document).ready(function() {
+// @ts-check
+jQuery(document).ready(function($) {
 
     // Initialisation //
     $('select').material_select();
@@ -47,18 +48,30 @@ $(document).ready(function() {
     });
 
 
+
     function fadeOutMyElement(offset, fadeElement) {
 
-        var vscroll = document.body.scrollTop;
+        var vscroll = $(document).scrollTop();
 
-        console.log(vscroll);
-        console.log(offset);
-        console.log(fadeElement);
 
-        if (vscroll >= offset) {
-            $(fadeElement).fadeOut(500);
-            console.log("fade out");
-        }
+
+        $(window).scroll(function() {
+
+            console.log(vscroll);
+            console.log(offset);
+            console.log(fadeElement);
+
+            if (vscroll <= offset) {
+                $(fadeElement).fadeOut(500);
+                console.log("fade out");
+                Materialize.scrollFire(options);
+
+                return;
+            }
+
+        });
+
+
 
 
     }
