@@ -46,35 +46,29 @@ $(document).ready(function() {
         repositionSideNavIfConected();
     });
 
-    function fadeOutMyElement(offset, element) {
-        setInterval(
-            function() {
-                var vscroll = document.body.scrollTop;
 
-                if (vscroll <= offset && $(element).css("display") == 'block') {
-                    $(element).fadeOut(500);
-                    //console.log($(window).scrollTop());
-                    console.log("fade out");
-                }
+    function fadeOutMyElement(offset, fadeElement) {
 
-            }, 500
-        );
-    }
-
-    function fadeInMyElement(offset, element) {
         var vscroll = document.body.scrollTop;
 
-        if ($(element).css("display") == 'none' && vscroll >= offset) {
-            //console.log($(window).scrollTop());
-            $(element).fadeIn(500);
-            console.log("fadeIn");
-            fadeOutMyElement(offset, element);
+        console.log(vscroll);
+        console.log(offset);
+        console.log(fadeElement);
+
+        if (vscroll >= offset) {
+            $(fadeElement).fadeOut(500);
+            console.log("fade out");
         }
+
 
     }
 
+    function fadeInMyElement(offset, fadeElement) {
 
+        $(fadeElement).fadeIn(500);
 
+        fadeOutMyElement(offset, fadeElement);
+    }
 
 
     var options = [
@@ -83,10 +77,8 @@ $(document).ready(function() {
             selector: "#textHv",
             offset: 1000,
             callback: function() {
-                setInterval(function() {
-                    //console.log("toto");
-                    fadeInMyElement(835, "#rightNavFloat");
-                }, 500);
+                console.log("test 1");
+                fadeInMyElement(835, "#rightNavFloat");
             }
         },
         // option pour goToTop
@@ -94,9 +86,8 @@ $(document).ready(function() {
             selector: "#aPropos",
             offset: 1000,
             callback: function() {
-                setInterval(function() {
-                    fadeInMyElement(1000, "#goToTop");
-                }, 500);
+                console.log("test 2");
+                fadeInMyElement(1000, "#goToTop");
             }
         }
     ];
