@@ -953,20 +953,16 @@ object {
 }
 
 
-/* ========== Début ajout du 14/09/17 =========== */
-
-.template-page-actualites {
-    padding: 0px;
-    margin: 0px;
-    background-image: url(http://localhost:8888/PiRoWorkHV/wp-content/uploads/2017/09/53.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+/* ========== Modifications du 15/09/17 =========== */
 
 .template-page-actualites,
 .text-flow {
-    font-size: 30px;
+    font-size: 32px;
+}
+
+.collapsible-body,
+.collapsible-header {
+    font-size: 18px;
 }
 
 li a {
@@ -980,6 +976,25 @@ li a {
 
 .row {
     padding-bottom: 60px;
+}
+
+#actualiteSuivante1 {
+    width: 200px;
+    height: 200px;
+}
+
+#accrocheCard {
+    font-size: 20px;
+}
+
+.media screen,
+projection i.small {
+    font-size: 2rem;
+}
+
+.fixed-action-btn {
+    position: relative;
+    line-height: 50%;
 }
 
 

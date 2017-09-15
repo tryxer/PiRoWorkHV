@@ -11,38 +11,16 @@
 
 ?>
 
-	
+	<!-- Modifications du 15/09/2017 -->
 <div class="divider black"></div>
-<footer class="site-footer page-footer white">
-        <div class="container">
-          <div class="row">
-            <div class="col l6 s12">
-              <h5 class="white-text">Footer Content</h5>
-              <p class="black-text">You can use rows and columns here to organize your footer content.</p>
-            </div>
-            <div class="col l4 offset-l2 s12">
-              <h5 class="black-text">Links</h5>
-              <ul>
-                <li><a class="black-text" href="#!">Link 1</a></li>
-                <li><a class="black-text" href="#!">Link 2</a></li>
-                <li><a class="black-text" href="#!">Link 3</a></li>
-                <li><a class="black-text" href="#!">Link 4</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="divider black"></div>
-        <div class="footer-copyright">
-            <div class="container valign-wraper">
-                <div class="center-align">
-                  <span class="black-text">© 2017 Copyright</span>
-                  <a>
-                    <span id="Team-PiRoWEB">Team-PiRoWEB</span>
-                  </a>
-                </div>
-            </div>
-        </div>
+<footer class="page-footer white">
+<div class="footer-copyright">
+    <div class="container">
+        <p class="black-text">© 2017 Copyright <a><span id="Team-PiRoWEB">Team-PiRoWEB</span></a></p>
+    </div>
+</div>
 </footer>
+<!-- Fin de la modification du 15/09/2017 -->
 
 	
 </div><!-- #page -->
