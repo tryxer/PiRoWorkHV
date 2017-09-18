@@ -60,7 +60,7 @@
                 </div>
             </div>
             <div class="parallax">
-                <img src="wp-content/uploads/2017/09/23.png">
+                <img src="wp-content/uploads/2017/09/23.jpg">
             </div>
             <div class="divider"></div>
     </div>
@@ -74,13 +74,13 @@
     </section>
     <div class="container fixeImageLitterature row">
         <div class="col offset-l1 l3">
-            <img src="img/lameSeule.jpg" alt="#" class="responsive-img">
+            <img src="wp-content/uploads/2017/09/lameSeule.jpg" alt="#" class="responsive-img">
             <blockquote class="flow-text white-text">
                 <p>L'Âme seule<br>(Fayard 2006)</p>
             </blockquote>
         </div>
         <div class="col offset-l1 l3">
-            <img src="img/papillons.jpg"  alt="#" class="responsive-img">
+            <img src="wp-content/uploads/2017/09/papillons.jpg"  alt="#" class="responsive-img">
             <blockquote class="flow-text white-text">
                 <p>Le Bal des papillons<br>(Fayard 2007)</p>
             </blockquote>
