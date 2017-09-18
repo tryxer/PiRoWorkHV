@@ -951,3 +951,15 @@ object {
 .gallery-caption {
     display: block;
 }
+
+li a {
+    list-style-type: none;
+}
+
+.collapsible-body,
+.collapsible-header {
+    font-size: 18px;
+}
+
+.row {
+    padding-bottom: 60px;

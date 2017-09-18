@@ -3,103 +3,165 @@
     include "header.php";
 ?>
 
-
-
-    <h2>Actualités</h2>
-    <!-- Affiche du concert à l'Olympia en 2018 -->
-    <div class="container">
-        <div class="row">
-            <div class="col s12 m3 l3">
-                <img class="responsive-img materialboxed" src="img/affiche.jpg">
+<!-- Zone Modifiée le 15/09/17 =========== -->
+        
+        <!-- Modifications du 15/09/17 =========== -->
+        
+    <section class="template-page-actualites grey darken-3">
+        <div class="container">
+            <div class="row">
+                <h2 class="titreSection col s12  light-green accent-5">Actualités</h2>
             </div>
         </div>
-    </div>
-
-    <div class="container">
-        <!-- Modal Trigger -->
-        <!--a class="waves-effect waves-light btn modal-trigger" href="#boiteAmessageActualites">Obtenir plus d'infos...</a-->
-        <a class="waves-effect waves-light btn modal-trigger" href="#tabs-swipe-demo">Obtenir plus d'infos...</a>
-        <!-- Modal Structure -->
-        <!--div id="boiteAmessageActualites"-->
-
-
-        <ul id="tabs-swipe-demo">
-            <!--class="tabs"-->
-            <li><a href="#boiteAmessages">Obtenir plus d'infos...</a></li>
-        </ul>
-        <li class="tab col s3"><a class="active" href="#test-swipe-1">Test 1</a></li>
-        <li class="tab col s3"><a href="#test-swipe-2">Test 2</a></li>
-
-        <div id="test-swipe-1" class="col s12 blue">Page principale</div>
-        <div id="boitetest-swipe-2" class="col s12 green">Formulaire</div>
-
-
-
-
-
-        <div class="row">
-
-            <section class="col s12 m12 l12">
-
-                <form class="z-depth-5">
-
-
-                    <div class="progress spinner-layer spinner-blue">
-                        <div class="indeterminate"></div>
-                    </div>
-
-                    <h4>Boîte à messages Actualités</h4>
-                    <p>Pour que votre message soit pris en compte, pensez à renseigner tous les champs.</p>
-
-                    <!-- Champ Nom -->
+        <div id="actualitePrincipale">
+            <div class="row">
+                <div class="container">
                     <div class="row">
-                        <div class="input-field col s12 m6">
-                            <input id="last_name" type="text" class="validate">
-                            <label for="last_name">Nom</label>
+                        <div class="col s12 m8 l6">
+                            <div class="card-panel hoverable grey lighten-5 z-depth-2">
+                                <div class="valign-wrapper">
+                                    <div class="col s12 l4">
+                                      <img src="http://localhost:8888/PiRoWorkHV/wp-content/uploads/2017/09/affiche.jpg" alt="#" class="responsive-img materialboxed">
+                                    </div>
+                                    <div class="col s12 l8">
+                                        <span id="accrocheCard" class="black-text">
+                                            <p>Chers Amis et Admirateurs, je viens d'entreprendre ma tournée d'adieux à la chanson à travers quelques capitales du monde... </p>
+                                        </span>
+                                        <div class="fixed-action-btn horizontal click-to-toggle right">
+                                            <a class="btn-floating btn-large light-green accent-3">
+                                              <i class="black-text material-icons">more_vert</i>
+                                            </a>
+                                            <ul>
+                                                <li><a class="btn-floating  lime accent-2"><i class="black-text material-icons">share</i></a></li>
+                                                <li><a class="btn-floating  lime accent-2"><i class="black-text material-icons">mode_edit</i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <!-- Champ Prénom -->
-                        <div class="input-field col s12 m6">
-                            <input id="first_name" type="text" class="validate">
-                            <label for="first_name">Prénom</label>
+                        <div class="col s12 m8 l6">
+                            <div class="card-panel hoverable grey lighten-5 z-depth-2">
+                                <div class="valign-wrapper">
+                                    <div class="col s12 l4">
+                                        <img src="http://localhost:8888/PiRoWorkHV/wp-content/uploads/2017/09/interwev.jpg" alt="" class="responsive-img materialboxed">
+                                    </div>
+                                    <div class="col s12 l8">
+                                        <span id="accrocheCard" class="black-text">
+                                            <p>Chers Amis et Admirateurs, je viens d'entreprendre ma tournée d'adieux à la chanson à travers quelques capitales du monde... </p>
+                                        </span>
+                                        <div class="fixed-action-btn horizontal click-to-toggle right">
+                                            <a class="btn-floating btn-large light-green accent-3">
+                                              <i class="black-text material-icons">more_vert</i>
+                                            </a>
+                                            <ul>
+                                                <li><a class="btn-floating  lime accent-2"><i class="black-text material-icons">share</i></a></li>
+                                                <li><a class="btn-floating  lime accent-2"><i class="black-text material-icons">mode_edit</i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m8 l6">
+                            <div class="card-panel hoverable grey lighten-5 z-depth-2">
+                                <div class="valign-wrapper">
+                                    <div class="col s12 l4">
+                                        <img src="http://localhost:8888/PiRoWorkHV/wp-content/uploads/2017/09/affiche.jpg" alt="" class="responsive-img materialboxed">
+                                    </div>
+                                    <div class="col s12 l8">
+                                        <span id="accrocheCard" class="black-text">
+                                            <p>Chers Amis et Admirateurs, je viens d'entreprendre ma tournée d'adieux à la chanson à travers quelques capitales du monde... </p>
+                                        </span>
+                                        <div class="fixed-action-btn horizontal click-to-toggle right">
+                                            <a class="btn-floating btn-large light-green accent-3">
+                                              <i class="black-text material-icons">more_vert</i>
+                                            </a>
+                                            <ul>
+                                                <li><a class="btn-floating  lime accent-2"><i class="black-text material-icons">share</i></a></li>
+                                                <li><a class="btn-fl-oating  lime accent-2"><i class="black-text material-icons">mode_edit</i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m8 l6">
+                            <div class="card-panel hoverable grey lighten-5 z-depth-2">
+                                <div class="valign-wrapper">
+                                    <div class="col s12 l4">
+                                        <img src="http://localhost:8888/PiRoWorkHV/wp-content/uploads/2017/09/affiche.jpg" alt="" class="responsive-img materialboxed">
+                                    </div>
+                                    <div class="col s12 l8">
+                                        <span id="accrocheCard" class="black-text">
+                                            <p>Chers Amis et Admirateurs, je viens d'entreprendre ma tournée d'adieux à la chanson à travers quelques capitales du monde... </p>
+                                        </span>
+                                        <div class="fixed-action-btn horizontal click-to-toggle right">
+                                            <a class="btn-floating btn-large light-green accent-3">
+                                              <i class="black-text material-icons">more_vert</i>
+                                            </a>
+                                            <ul>
+                                                <li><a class="btn-floating  lime accent-2"><i class="black-text material-icons">share</i></a></li>
+                                                <li><a class="btn-floating  lime accent-2"><i class="black-text material-icons">mode_edit</i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m8 l6">
+                            <div class="card-panel hoverable grey lighten-5 z-depth-2">
+                                <div class="valign-wrapper">
+                                    <div class="col s12 l4">
+                                        <img src="http://localhost:8888/PiRoWorkHV/wp-content/uploads/2017/09/affiche.jpg" alt="" class="responsive-img materialboxed">
+                                    </div>
+                                    <div class="col s12 l8">
+                                        <span id="accrocheCard" class="black-text">
+                                            <p>Chers Amis et Admirateurs, je viens d'entreprendre ma tournée d'adieux à la chanson à travers quelques capitales du monde... </p>
+                                        </span>
+                                        <div class="fixed-action-btn horizontal click-to-toggle right">
+                                            <a class="btn-floating btn-large light-green accent-3">
+                                                <i class="black-text material-icons">more_vert</i>
+                                            </a>
+                                            <ul>
+                                                <li><a class="btn-floating  lime accent-2"><i class="black-text material-icons">share</i></a></li>
+                                                <li><a class="btn-floating  lime accent-2"><i class="black-text material-icons">mode_edit</i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m8 l6">
+                            <div class="card-panel hoverable grey lighten-5 z-depth-2">
+                                <div class="valign-wrapper">
+                                    <div class="col s12 l4">
+                                        <img src="http://localhost:8888/PiRoWorkHV/wp-content/uploads/2017/09/affiche.jpg" alt="" class="responsive-img materialboxed">
+                                    </div>
+                                    <div class="col s12 l8">
+                                        <span id="accrocheCard" class="black-text">
+                                            <p>Chers Amis et Admirateurs, je viens d'entreprendre ma tournée d'adieux à la chanson à travers quelques capitales du monde... </p>
+                                        </span>
+                                        <div class="fixed-action-btn horizontal click-to-toggle right">
+                                            <a class="btn-floating btn-large light-green accent-3">
+                                                <i class="black-text material-icons">more_vert</i>
+                                            </a>
+                                            <ul>
+                                                <li><a class="btn-floating  lime accent-2"><i class="black-text material-icons">share</i></a></li>
+                                                <li><a class="btn-floating  lime accent-2"><i class="black-text material-icons">mode_edit</i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <!-- Champ adresse mail -->
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <input id="email" type="email" class="validate">
-                            <label for="email">Adresse mail</label>
-                        </div>
-                    </div>
-                    <!-- Champ message -->
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <!-- Faut'il laisser la class 'data-length' ? -->
-                            <textarea id="textarea1" class="materialize-textarea" data-length="400"></textarea>
-                            <label for="textarea1">Votre message</label>
-                        </div>
-                        <p class="text-flow">
-                            Attention : votre message ne peut excéder 400 caractères.
-                        </p>
-                    </div>
-                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Annuler</a>
-                    <!-- bouton send à finir 'mailto'-->
-                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Envoyer</a>
-                </form>
-
-            </section>
-            <!-- col s12 m12 l12 -->
+                </div>
+            </div>
         </div>
-        <!-- row -->
+    </section>
 
-    </div>
-    <!--/boiteMessages   SWIP   -->
-    </div>
-    <!--/container-->
-
-
-
-
-
+<!-- Fin de la zone modifiée ============= -->
 
 <?php
     include "footer.php";
