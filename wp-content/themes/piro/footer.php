@@ -11,15 +11,15 @@
 
 ?>
 
-	<!-- Modifications du 15/09/2017 -->
-<div class="divider black"></div>
-<footer class="page-footer white">
-<div class="footer-copyright">
-    <div class="container">
-        <p class="black-text">© 2017 Copyright <a><span id="Team-PiRoWEB">Team-PiRoWEB</span></a></p>
-    </div>
-</div>
+<!-- Modif -->
+<footer class="valign center page-footer black footer-copyright container white-text">
+    <div class="divider"></div> 
+    <p class="blue-text">&#169 2017 Copyright -
+        <a href="#" class="white-text"> Team-PiRoWEB -</a>
+        <a href="#" class="red-text"> Mentions légales</a>
+    </p>
 </footer>
+<!--/footer-copyright-->
 <!-- Fin de la modification du 15/09/2017 -->
 
 	
