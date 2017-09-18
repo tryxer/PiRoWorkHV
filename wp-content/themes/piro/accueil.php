@@ -27,21 +27,47 @@
     </div>
 </section>
 
-    <!-- Section Actualités -->
-    <section id="actualites" class="scrollspy container">
-        <div class="section">
-            <h2 class="flow-text">Actualités</h2>
-            <p class="accroche">Accroche</p>
-        </div>
-    </section>
-
-    <!-- PARALLAXE Image 02 -->
-    <div class="parallax-container">
-        <div class="parallax">
-            <img src="wp-content/uploads/2017/09/DSC04915.jpg">
-        </div>
+<!-- Section Actualités -->
+<section id="actualites" class="scrollspy container">
+    <div class="section">
+        <div class="divider"></div>
+        <h2 class="flow-text white-text">Actualités</h2>
     </div>
+</section>
+<div class="parallax-container">
+        <div class="container">
+            <div class="row">
+                <div class="col l12">
+                    <p class="flow-text white-text">Dernières dates les 5 &amp; 6 MAI 2018</p>
+                </div>
+                <div class="col l6">
+                    <div class="fixeImageActualites col l6">
+                        <img class="responsive-img" src="img/affiche.jpg">
+                    </div>
+                </div>
+                <div class="col l6">
+                    <p class="flow-text white-text hauteur">"Je ne veux pas devenir un vieux chanteur rabougri, qui tremble de la mâchoire, comme j'en vois beaucoup. Je n'ai aucune envie de faire pitié. J'ai eu une belle vie, une belle histoire, et je veux qu'elle reste belle !"</p>
+                    <div class="topBoutonActualites row">
+                        <div class="col l2">
+                            <a href="actualites.html">
+                                <button class="btn waves-effect waves-light light-green accent-3 valign right black-text" type="submit" name="action">Plus d'infos<i class="material-icons right">chevron_right</i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="parallax">
+            <img src="img/23.png">
+        </div>
+        <div class="divider"></div>
+</div>
 
+    
+
+
+
+    
     <!-- Section Ecriture -->
     <section id="ecriture" class="scrollspy container">
         <div class="section">
