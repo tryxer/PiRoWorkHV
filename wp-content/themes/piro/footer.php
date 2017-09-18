@@ -13,7 +13,6 @@
 
 <!-- Modif -->
 <footer class="valign center page-footer black footer-copyright container white-text">
-    <div class="divider"></div> 
     <p class="blue-text">&#169 2017 Copyright -
         <a href="#" class="white-text"> Team-PiRoWEB -</a>
         <a href="#" class="red-text"> Mentions légales</a>
