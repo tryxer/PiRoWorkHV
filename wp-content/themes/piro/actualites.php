@@ -160,8 +160,6 @@
             </div>
         </div>
     </section>
-    
-    <!-- Fin de la zone modifiée ============= -->
 
 <!-- Fin de la zone modifiée ============= -->
 
