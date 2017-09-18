@@ -73,7 +73,7 @@
 
     <!-- PARALLAXE Image 04 -->
     <div class="parallax-container">
-        <div class="parallax">
+        <div class="parallax">"
             <img src="wp-content/uploads/2017/09/b1.png">
         </div>
     </div>
