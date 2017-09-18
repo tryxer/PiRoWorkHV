@@ -951,3 +951,36 @@ object {
 .gallery-caption {
     display: block;
 }
+
+
+/* ========== Début ajout du 14/09/17 =========== */
+
+.template-page-actualites {
+    padding: 0px;
+    margin: 0px;
+    background-image: url(http://localhost:8888/PiRoWorkHV/wp-content/uploads/2017/09/53.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.template-page-actualites,
+.text-flow {
+    font-size: 30px;
+}
+
+li a {
+    list-style-type: none;
+}
+
+.collapsible-body,
+.collapsible-header {
+    font-size: 18px;
+}
+
+.row {
+    padding-bottom: 60px;
+}
+
+
+/* ========== Fin ajout du 14/09/17 ============ */
