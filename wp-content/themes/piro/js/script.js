@@ -1,4 +1,5 @@
-$(document).ready(function() {
+// @ts-check
+jQuery(document).ready(function($) {
 
     // Initialisation //
     $('select').material_select();
@@ -46,35 +47,41 @@ $(document).ready(function() {
         repositionSideNavIfConected();
     });
 
-    function fadeOutMyElement(offset, element) {
-        setInterval(
-            function() {
-                var vscroll = document.body.scrollTop;
 
-                if (vscroll <= offset && $(element).css("display") == 'block') {
-                    $(element).fadeOut(500);
-                    //console.log($(window).scrollTop());
-                    console.log("fade out");
-                }
 
-            }, 500
-        );
+    function fadeOutMyElement(offset, fadeElement) {
+
+        var vscroll = $(document).scrollTop();
+
+
+
+        $(window).scroll(function() {
+
+            console.log(vscroll);
+            console.log(offset);
+            console.log(fadeElement);
+
+            if (vscroll <= offset) {
+                $(fadeElement).fadeOut(500);
+                console.log("fade out");
+                Materialize.scrollFire(options);
+
+                return;
+            }
+
+        });
+
+
+
+
     }
 
-    function fadeInMyElement(offset, element) {
-        var vscroll = document.body.scrollTop;
+    function fadeInMyElement(offset, fadeElement) {
 
-        if ($(element).css("display") == 'none' && vscroll >= offset) {
-            //console.log($(window).scrollTop());
-            $(element).fadeIn(500);
-            console.log("fadeIn");
-            fadeOutMyElement(offset, element);
-        }
+        $(fadeElement).fadeIn(500);
 
+        fadeOutMyElement(offset, fadeElement);
     }
-
-
-
 
 
     var options = [
@@ -83,10 +90,8 @@ $(document).ready(function() {
             selector: "#textHv",
             offset: 1000,
             callback: function() {
-                setInterval(function() {
-                    //console.log("toto");
-                    fadeInMyElement(835, "#rightNavFloat");
-                }, 500);
+                console.log("test 1");
+                fadeInMyElement(835, "#rightNavFloat");
             }
         },
         // option pour goToTop
@@ -94,9 +99,8 @@ $(document).ready(function() {
             selector: "#aPropos",
             offset: 1000,
             callback: function() {
-                setInterval(function() {
-                    fadeInMyElement(1000, "#goToTop");
-                }, 500);
+                console.log("test 2");
+                fadeInMyElement(1000, "#goToTop");
             }
         }
     ];
