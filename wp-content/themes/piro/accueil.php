@@ -109,7 +109,6 @@
     </div>
 </div>
 
-
 <!-- Section Discographie -->
 <section id="discographie" class="scrollspy container">
     <div class="section">
@@ -132,54 +131,19 @@
     </div>
 </div>
 
-
-
-
-
-    <!-- Section Discographie -->
-    <section id="discographie" class="scrollspy container">
-        <div class="section">
-            <h2 class="flow-text">Discographie</h2>
-            <p class="accroche">Accroche</p>
-        </div>
-    </section>
-
-    <!-- PARALLAXE Image 04 -->
-    <div class="parallax-container">
-        <div class="parallax">"
-            <img src="wp-content/uploads/2017/09/b1.png">
-        </div>
+<!-- Section Galeries -->
+<section id="galeries" class="scrollspy container">
+    <div class="section">
+        <div class="divider"></div>
+        <h2 class="flow-text white-text">Galeries</h2>
     </div>
-
-    <!-- Section Galeries -->
-    <section id="galeries" class="scrollspy container">
-        <div class="section">
-            <h2 class="flow-text">Galeries</h2>
-            <p class="accroche">Galeries</p>
-        </div>
-    </section>
-
-    <!-- PARALLAXE Image 05 -->
-    <div class="parallax-container">
-        <div class="parallax">
-            <img src="wp-content/uploads/2017/09/25.jpg">
-        </div>
+</section>
+<div class="parallax-container">
+    <div class="parallax">
+        <img src="wp-content/uploads/2017/09/DSC05255.png">
     </div>
+</div>
 
-    <!-- Section Livre d'Or -->
-    <section id="livredor" class="scrollspy container">
-        <div class="section">
-            <h2 class="flow-text">Livre d'Or</h2>
-            <p class="accroche">Accroche</p>
-        </div>
-    </section>
-
-    <!-- PARALLAXE Image 06 -->
-    <div class="parallax-container">
-        <div class="parallax">
-            <img src="wp-content/uploads/2017/09/DSC05255.jpg">
-        </div>
-    </div>
 
     <!-- Section Contact -->
     <section id="contact" class="scrollspy container">
