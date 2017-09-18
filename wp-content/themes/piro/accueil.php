@@ -3,6 +3,8 @@
    include "header_home.php";
 ?>
 
+
+<!-- Section A propos -->
 <section id="aPropos" class="scrollspy container">
     <div class="section">
         <h2 class="flow-text white-text">A propos (Biographie ?)</h2>
@@ -63,25 +65,53 @@
         <div class="divider"></div>
 </div>
 
-    
-
-
-
-    
-    <!-- Section Ecriture -->
-    <section id="ecriture" class="scrollspy container">
-        <div class="section">
-            <h2 class="flow-text">Ecriture</h2>
-            <p class="accroche">Accroche</p>
-        </div>
-    </section>
-
-    <!-- PARALLAXE Image 03 -->
-    <div class="parallax-container">
-        <div class="parallax">
-            <img src="wp-content/uploads/2017/09/24Modif.jpg">
+<!-- Section Littérature -->
+<section id="ecriture" class="scrollspy container">
+    <div class="section">
+        <div class="divider"></div>
+        <h2 class="flow-text white-text">Littérature</h2>
+    </div>
+</section>
+<div class="container fixeImageLitterature row">
+    <div class="col offset-l1 l3">
+        <img src="img/lameSeule.jpg" alt="#" class="responsive-img">
+        <blockquote class="flow-text white-text">
+            <p>L'Âme seule<br>(Fayard 2006)</p>
+        </blockquote>
+    </div>
+    <div class="col offset-l1 l3">
+        <img src="img/papillons.jpg"  alt="#" class="responsive-img">
+        <blockquote class="flow-text white-text">
+            <p>Le Bal des papillons<br>(Fayard 2007)</p>
+        </blockquote>
+    </div>
+    <div class="col offset-l1 l3">
+        <p class="flow-text white-text"> N’étant pas totalement satisfait du travail littéraire de mon dernier opus "Du lierres dans les arbres", en accord avec l’Editeur, j’ai décidé de m’y remettre encore un peu et d’en repousser la date de parution.</p>
+        <div class="topBoutonActualites row">
+            <div class="col l12">
+                <a href="actualites.html">
+                    <button class="btn waves-effect waves-light light-green accent-3 valign right black-text" type="submit" name="action">Plus d'infos<i class="material-icons right">chevron_right</i>
+                </button></a>
+            </div>
         </div>
     </div>
+    <div class="row">
+        <div class="col offset-l1">
+            <p class="flow-text white-text">Venez découvrir les livres dont j'ai particulièrement apprécié la lecture. [mettre une card]</p>
+            <div class="row">
+                <div class="col l12">
+                    <a href="actualites.html">
+                    <button class="btn waves-effect waves-light light-green accent-3 valign right black-text" type="submit" name="action">C'est par ici !<i class="material-icons right">chevron_right</i>
+                    </button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
 
     <!-- Section Discographie -->
     <section id="discographie" class="scrollspy container">
