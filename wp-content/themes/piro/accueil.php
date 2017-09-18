@@ -44,7 +44,7 @@
                 </div>
                 <div class="col l6">
                     <div class="fixeImageActualites col l6">
-                        <img class="responsive-img" src="img/affiche.jpg">
+                        <img class="responsive-img" src="wp-content/uploads/2017/09/affiche.jpg">
                     </div>
                 </div>
                 <div class="col l6">
@@ -60,7 +60,7 @@
             </div>
         </div>
         <div class="parallax">
-            <img src="img/23.png">
+            <img src="wp-content/uploads/2017/09/23.png">
         </div>
         <div class="divider"></div>
 </div>
@@ -104,6 +104,29 @@
                     <button class="btn waves-effect waves-light light-green accent-3 valign right black-text" type="submit" name="action">C'est par ici !<i class="material-icons right">chevron_right</i>
                     </button></a>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Section Discographie -->
+<section id="discographie" class="scrollspy container">
+    <div class="section">
+        <div class="divider"></div>
+        <h2 class="flow-text white-text">Discographie</h2>
+    </div>
+</section>
+<div class="container row">
+    <div class="parallax-container">
+        <div class="row">
+            <div class="parallax">
+                <img class="responsive-img" src="wp-content/uploads/2017/09/pochettes.png" alt="#">
+            </div>
+            <div class="row">
+            <div class="col l6">
+                <p class="flow-text white-text margeTexte trame">"Ici vous retrouverez l'ensemble de mes chansons et albums classés... ou presque !!!" </p>
+            </div>
             </div>
         </div>
     </div>
