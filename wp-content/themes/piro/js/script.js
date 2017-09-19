@@ -53,26 +53,17 @@ jQuery(document).ready(function($) {
 
         var vscroll = $(document).scrollTop();
 
+        console.log(vscroll);
+        console.log(offset);
+        console.log(fadeElement);
 
+        if (vscroll <= offset) {
+            $(fadeElement).fadeOut(500);
+            console.log("fade out");
+            Materialize.scrollFire(options);
 
-        $(window).scroll(function() {
-
-            console.log(vscroll);
-            console.log(offset);
-            console.log(fadeElement);
-
-            if (vscroll <= offset) {
-                $(fadeElement).fadeOut(500);
-                console.log("fade out");
-                Materialize.scrollFire(options);
-
-                return;
-            }
-
-        });
-
-
-
+            return;
+        }
 
     }
 
