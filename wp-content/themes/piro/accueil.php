@@ -5,36 +5,30 @@
 
 
     <!-- Section A propos -->
-    <section id="aPropos" class="scrollspy container">
-        <div class="section">
-            <h2 class="flow-text white-text">A propos (Biographie ?)</h2>
-            <div class="row">
-                <div class="col l1">
-                    <img class="responsive-img" src="wp-content/uploads/2017/09/RV_1.jpg">
-                    <img class="responsive-img" src="wp-content/uploads/2017/09/RV_1.jpg">
-                    <img class="responsive-img" src="wp-content/uploads/2017/09/RV_1.jpg">
-                    <img class="responsive-img" src="wp-content/uploads/2017/09/RV_1.jpg">
-                </div>
-                <div class="row">
-                    <div class="col l10 right">
-                        <p class="flow-text white-text">Fils de Marcelle Blanche Villard (originaire de Dordogne), une vendeuse de violettes et de partitions qui chante dans les rues avant d'être ouvreuse au théâtre des Variétés, le petit René Paul Hervé naît dans un taxi alors que sa mère se rend à l'hôpital Saint-Antoine.</p>
-                        <p class="flow-text white-text">Très tôt, Hervé est envoyé à l'orphelinat Saint-Vincent-de-Paul, situé à Paris. Séparé de sa famille, il tente de s'échapper plusieurs fois.</p>
-                        <p class="flow-text white-text">En 1957, à l'âge de 11 ans, il rencontre à La Celette près de Saint-Amand-Montrond celui qui sera son père spirituel et qui lui donnera une solide formation scolaire, l'abbé Denis Angrand. À 13 ans, Hervé obtient son certificat d'études et décide, à 14 ans, que la musique sera son avenir.</p>
+    <section id="aPropos" class="scrollspy template-page-aPropos amber lighten-5">
+        <h2 class="flow-text green-text">BIOGRAPHIE</h2>
+        <div class="container row">
+            <div class="card horizontal hoverable">
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p class="flow-text  col l12">Fils de Marcelle Blanche Villard une vendeuse de violettes et de partitions qui chante dans les rues avant d'être ouvreuse au théâtre des Variétés, le petit René Paul Hervé naît dans un taxi alors que sa mère se rend à l'hôpital Saint-Antoine.</p>
+                        <img class="materialboxed col l2" src="
+
+wp-content/uploads/2017/09/2.jpg">
+                        <p class="flow-text">Très tôt, Hervé est envoyé à l'orphelinat Saint-Vincent-de-Paul, situé à Paris. Séparé de sa famille, il tente de s'échapper plusieurs fois. En 1957, à l'âge de 11 ans, il rencontre à La Celette près de Saint-Amand-Montrond celui qui sera son père spirituel et qui lui donnera une solide formation scolaire, l'abbé Denis Angrand.  À 13 ans, Hervé obtient son certificat d'études et décide, à 14 ans, que la musique sera son avenir.</p>
+                    </div>
+                    <div class="card-action">
+                        <a class="black-text right" href="a-propos">Lire la suite</a>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col l6">
-                    <blockquote class="flow-text oblique blue-text right"><p>Source : Wikipedia - Biographie d'Hervé Vilard</p></blockquote>
+                <div class="card-image col s12 l4">
+                    <img src="
+
+wp-content/uploads/2017/09/52.jpg">
                 </div>
             </div>
-            <a href="a-propos">
-                <button class="btn waves-effect waves-light light-green accent-3 valign right black-text" type="submit" name="action">En savoir plus...<i class="material-icons right">chevron_right</i>
-                </button>
-            </a>
         </div>
     </section>
-    <div class="divider"></div>
 
 
     <!-- Section Actualités -->
