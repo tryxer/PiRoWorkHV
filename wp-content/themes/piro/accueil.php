@@ -5,16 +5,14 @@
 
 
     <!-- Section A propos -->
-    <section id="aPropos" class="scrollspy template-page-aPropos amber lighten-5">
+    <section id="aPropos" class="scrollspy">    <!-- template-page-aPropos amber lighten-5"-->
         <h2 class="flow-text green-text">BIOGRAPHIE</h2>
         <div class="container row">
             <div class="card horizontal hoverable">
                 <div class="card-stacked">
                     <div class="card-content">
                         <p class="flow-text  col l12">Fils de Marcelle Blanche Villard une vendeuse de violettes et de partitions qui chante dans les rues avant d'être ouvreuse au théâtre des Variétés, le petit René Paul Hervé naît dans un taxi alors que sa mère se rend à l'hôpital Saint-Antoine.</p>
-                        <img class="materialboxed col l2" src="
-
-wp-content/uploads/2017/09/2.jpg">
+                            <img class="materialboxed col l2" src="wp-content/uploads/2017/09/2.jpg">
                         <p class="flow-text">Très tôt, Hervé est envoyé à l'orphelinat Saint-Vincent-de-Paul, situé à Paris. Séparé de sa famille, il tente de s'échapper plusieurs fois. En 1957, à l'âge de 11 ans, il rencontre à La Celette près de Saint-Amand-Montrond celui qui sera son père spirituel et qui lui donnera une solide formation scolaire, l'abbé Denis Angrand.  À 13 ans, Hervé obtient son certificat d'études et décide, à 14 ans, que la musique sera son avenir.</p>
                     </div>
                     <div class="card-action">
@@ -22,9 +20,7 @@ wp-content/uploads/2017/09/2.jpg">
                     </div>
                 </div>
                 <div class="card-image col s12 l4">
-                    <img src="
-
-wp-content/uploads/2017/09/52.jpg">
+                    <img class="responsive-img materialboxed" src="wp-content/uploads/2017/09/52.jpg">
                 </div>
             </div>
         </div>
@@ -32,12 +28,9 @@ wp-content/uploads/2017/09/52.jpg">
 
 
     <!-- Section Actualités -->
-    <section id="actualites" class="scrollspy container">
-        <div class="section">
-            <h2 class="flow-text white-text">Actualités</h2>
-        </div>
-    </section>
-    <div class="parallax-container">
+    <section id="actualites" class="scrollspy">
+        <h2 class="flow-text green-text">ACTUALITES</h2>
+        <div class="parallax-container">
             <div class="container">
                 <div class="row">
                     <div class="col l12">
@@ -63,75 +56,76 @@ wp-content/uploads/2017/09/52.jpg">
             <div class="parallax">
                 <img src="wp-content/uploads/2017/09/23.png">
             </div>
-    </div>
-    <div class="divider"></div>
-
-    <!-- Section Littérature -->
-    <section id="ecriture" class="scrollspy container">
-        <div class="section">
-            <h2 class="flow-text white-text">Littérature</h2>
         </div>
     </section>
-    <div class="container fixeImageLitterature row">
-        <div class="col offset-l1 l3">
-            <img src="wp-content/uploads/2017/09/lameSeule.jpg" alt="#" class="responsive-img">
-            <blockquote class="flow-text white-text">
-                <p>L'Âme seule<br>(Fayard 2006)</p>
-            </blockquote>
-        </div>
-        <div class="col offset-l1 l3">
-            <img src="wp-content/uploads/2017/09/papillons.jpg"  alt="#" class="responsive-img">
-            <blockquote class="flow-text white-text">
-                <p>Le Bal des papillons<br>(Fayard 2007)</p>
-            </blockquote>
-        </div>
-        <div class="col offset-l1 l3">
-            <p class="flow-text white-text"> N’étant pas totalement satisfait du travail littéraire de mon dernier opus "Du lierres dans les arbres", en accord avec l’Editeur, j’ai décidé de m’y remettre encore un peu et d’en repousser la date de parution.</p>
-            <div class="topBoutonActualites row">
-                <div class="col l12">
-                    <a href="actualites.html">
-                        <button class="btn waves-effect waves-light light-green accent-3 valign right black-text" type="submit" name="action">Plus d'infos<i class="material-icons right">chevron_right</i>
-                    </button></a>
-                </div>
+
+
+    <!-- Section Littérature -->
+    <section id="ecriture" class="scrollspy">
+        <h2 class="flow-text green-text">LITTERATURE</h2>
+        <div class="container row">
+            <div class="col offset-l1 l3">
+                <img src="wp-content/uploads/2017/09/lameSeule.jpg" alt="#" class="responsive-img">
+                <blockquote id="quote" class="white-text">
+                    <p>L'Âme seule<br>(Fayard 2006)</p>
+                </blockquote>
             </div>
-        </div>
-        <div class="row">
-            <div class="col offset-l1">
-                <p class="flow-text white-text">Venez découvrir les livres dont j'ai particulièrement apprécié la lecture. [mettre une card]</p>
-                <div class="row">
+            <div class="col offset-l1 l3">
+                <img src="wp-content/uploads/2017/09/papillons.jpg"  alt="#" class="responsive-img">
+                <blockquote id="quote" class="white-text">
+                    <p>Le Bal des papillons<br>(Fayard 2007)</p>
+                </blockquote>
+            </div>
+            <div class="col  l4">
+                <p class="flow-text white-text"> N’étant pas totalement satisfait du travail littéraire de mon dernier opus "Du lierres dans les arbres", en accord avec l’Editeur, j’ai décidé de m’y remettre encore un peu et d’en repousser la date de parution.</p>
+                <div class="topBoutonActualites row">
                     <div class="col l12">
                         <a href="actualites.html">
-                        <button class="btn waves-effect waves-light light-green accent-3 valign right black-text" type="submit" name="action">C'est par ici !<i class="material-icons right">chevron_right</i>
+                            <button class="btn waves-effect waves-light light-green accent-3 valign right black-text" type="submit" name="action">Plus d'infos<i class="material-icons right">chevron_right</i>
                         </button></a>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="divider"></div>
-
-    <!-- Section Discographie -->
-    <section id="discographie" class="scrollspy container">
-        <div class="section">
-            <h2 class="flow-text white-text">Discographie</h2>
-        </div>
-    </section>
-    <div class="container row">
-        <div class="parallax-container">
             <div class="row">
-                <div class="parallax">
-                    <img class="responsive-img" src="wp-content/uploads/2017/09/pochettes.png" alt="#">
-                </div>
-                <div class="row">
-                <div class="col offset-l6 l4">
-                    <p class="flow-text white-text margeTexte trame">"Ici vous retrouverez l'ensemble des chansons et albums qui ont jalonné ma carrière." </p>
-                </div>
+                <div class="col offset-l1">
+                    <p class="flow-text white-text">Venez découvrir les livres dont j'ai particulièrement apprécié la lecture. [mettre une card]</p>
+                    <div class="row">
+                        <div class="col l12">
+                            <a href="actualites.html">
+                            <button class="btn waves-effect waves-light light-green accent-3 valign right black-text" type="submit" name="action">C'est par ici !<i class="material-icons right">chevron_right</i>
+                            </button></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="divider"></div>
+    </section>
+
+
+    <!-- Section Discographie -->
+    <section id="discographie" class="scrollspy container">
+        <h2 class="flow-text green-text">Discographie</h2>
+        <div class="container row">
+            <div class="parallax-container">
+                <div class="row">
+                    <div class="parallax l12">
+                        <img class="responsive-img" src="wp-content/uploads/2017/09/pochettes.png" alt="#">
+                    </div>
+                    <div class="row">
+                        <div class="col l4">
+                            <p class="flow-text white-text margeTexte trame">"Ici vous retrouverez l'ensemble des chansons et albums qui ont jalonné ma carrière." </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     
+
+
+
+
+
     <!-- Section Galeries -->
     <section id="galeries" class="scrollspy container">
         <div class="section">

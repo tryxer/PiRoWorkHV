@@ -154,3 +154,7 @@ i.fa-facebook-official {
     /* offset-x | offset-y | blur-radius | color */
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.54);
 }
+
+#quote {
+    font-size: 2px!important;
+}
