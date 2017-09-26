@@ -532,12 +532,6 @@ a:visited {
     color: black;
 }
 
-a:hover,
-a:focus,
-a:active {
-    color: red;
-}
-
 a:focus {
     outline: thin dotted;
 }
