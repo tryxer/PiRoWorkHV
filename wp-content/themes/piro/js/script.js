@@ -30,7 +30,7 @@ jQuery(document).ready(function($) {
     });
 
     // scrollTop SmoothScroll //
-    $('.scrollspy').scrollSpy({ scrollOffset: 90 });
+    $('.scrollspy').scrollSpy({ scrollOffset: $("#masthead > div > nav > div").height() + 26 });
 
 
     function repositionSideNavIfConected() {
@@ -39,6 +39,7 @@ jQuery(document).ready(function($) {
             //console.log($("div#wpadminbar").height());
             $("#mobile-demo").css("top", $("div#wpadminbar").height() + $("#masthead > div > nav > div").height());
             $("#rightNavFloat").css("top", $("div#wpadminbar").height() + $("#masthead > div > nav > div").height());
+            $('.scrollspy').scrollSpy({ scrollOffset: $("#masthead > div > nav > div").height() + $("div#wpadminbar").height() + 26 });
 
         }
     }
@@ -57,10 +58,9 @@ jQuery(document).ready(function($) {
         console.log(offset);
         console.log(fadeElement);
 
-        if (vscroll <= offset) {
+        if (vscroll >= offset) {
             $(fadeElement).fadeOut(500);
             console.log("fade out");
-            Materialize.scrollFire(options);
 
             return;
         }
@@ -78,16 +78,16 @@ jQuery(document).ready(function($) {
     var options = [
         // option pour rightFloatNav
         {
-            selector: "#aPropos",
-            offset: 1000,
+            selector: "#accueilExpandLink",
+            offset: 700,
             callback: function() {
                 console.log("test 1");
-                fadeInMyElement(835, "#rightNavFloat");
+                fadeInMyElement(700, "#rightNavFloat");
             }
         },
         // option pour goToTop
         {
-            selector: "#aPropos",
+            selector: "#biographie",
             offset: 1000,
             callback: function() {
                 console.log("test 2");

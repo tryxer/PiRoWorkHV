@@ -83,7 +83,7 @@
 					<img id="imageAccueil"  data-caption="Hervé Vilard" class="responsive-img" src="http://localhost:8888/PiRoWorkHV/wp-content/uploads/2017/09/14.jpg" alt="#" />
 				
 				<div id="accueilExpand" class="show-on-large">
-					<a id="accueilExpandLink" href="#textHv"><i class="medium material-icons">expand_more</i></a>
+					<a id="accueilExpandLink" href="#biographie"><i class="medium material-icons">expand_more</i></a>
 				</div>
 		
         </section>

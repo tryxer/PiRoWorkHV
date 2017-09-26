@@ -5,7 +5,7 @@
 
 
     <!-- Section A propos -->
-    <section id="aPropos" class="scrollspy">    <!-- template-page-aPropos amber lighten-5"-->
+    <section id="biographie" class="scrollspy">    <!-- template-page-aPropos amber lighten-5"-->
         <h2 class="flow-text green-text">BIOGRAPHIE</h2>
         <div class="container row">
             <div class="card horizontal hoverable">
@@ -61,7 +61,7 @@
 
 
     <!-- Section Littérature -->
-    <section id="ecriture" class="scrollspy">
+    <section id="litterature" class="scrollspy">
         <h2 class="flow-text green-text">LITTERATURE</h2>
         <div class="container row">
             <div class="col offset-l1 l3">
@@ -122,10 +122,6 @@
     </section>
     
 
-
-
-
-
     <!-- Section Galeries -->
     <section id="galeries" class="scrollspy container">
         <div class="section">
@@ -169,12 +165,11 @@
 
     <div id="rightNavFloat" style="height: 1px;" class="hide-on-small-only">
         <ul class="section table-of-contents ">
-            <li><a class="white-text"href="#aPropos">A propos</a></li>
+            <li><a class="white-text"href="#biographie">Biographie</a></li>
             <li><a class="white-text"href="#actualites">Actualités</a></li>
-            <li><a class="white-text"href="#ecriture">Ecriture</a></li>
+            <li><a class="white-text"href="#litterature">Littérature</a></li>
             <li><a class="white-text"href="#discographie">Discographie</a></li>
             <li><a class="white-text"href="#galeries">Galeries</a></li>
-            <li><a class="white-text"href="#livredor">Livre d'Or</a></li>
             <li><a class="white-text"href="#contact">Contact</a></li>
         </ul>
     </div>
@@ -182,7 +177,7 @@
     <!-- FIN FLOAT NAV RIGHT -->
 
     <div id="goToTop">
-		<a id="goToTopLink" href="#textHv"><i class="medium material-icons">expand_less</i></a>
+		<a id="goToTopLink" href="#biographie"><i class="medium material-icons">expand_less</i></a>
 	</div>
 
 <?php
