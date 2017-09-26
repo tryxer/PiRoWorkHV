@@ -30,7 +30,7 @@ jQuery(document).ready(function($) {
     });
 
     // scrollTop SmoothScroll //
-    $('.scrollspy').scrollSpy({ scrollOffset: 64 });
+    $('.scrollspy').scrollSpy({ scrollOffset: 90 });
 
 
     function repositionSideNavIfConected() {
@@ -87,7 +87,7 @@ jQuery(document).ready(function($) {
     var options = [
         // option pour rightFloatNav
         {
-            selector: "#textHv",
+            selector: "#aPropos",
             offset: 1000,
             callback: function() {
                 console.log("test 1");
