@@ -4,10 +4,10 @@
 ?>
 
 
-    <!-- Section A propos -->
+    <!-- Section 'Biographie' -->
     <section id="biographie" class="scrollspy">    <!-- template-page-aPropos amber lighten-5"-->
         <h2 class="flow-text green-text">BIOGRAPHIE</h2>
-        <div class="container row">
+        <div class="row">
             <div class="card horizontal hoverable">
                 <div class="card-stacked">
                     <div class="card-content">
