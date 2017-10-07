@@ -91,16 +91,14 @@
 			</a>
 		</div>
 		
+		<div id="bienvenue" class="row">
+			
+			<p id="petitTexteAccueil" class="flow-text light-green-text col offset-s5">Site officiel</p>
+			<p id="grandTexteAccueil" class="flow-text light-green-text col offset-s1">Hervé Vilard</p>
+				
+		</div>
 	</section>
 		
-	<div id="bienvenue" class="container">
-		<div class="row">
-		<p id="grandTexteAccueil" class="flow-text light-green-text col s8 l12">Hervé Vilard</p>
-		<!--div class="row"-->
-			<p id="petitTexteAccueil" class="flow-text light-green-text offset-s4 col s12">Site officiel</p>
-		<!--/div-->
-			</div>
-	</div>
 	</header><!-- #masthead -->
 
 	

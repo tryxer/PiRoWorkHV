@@ -193,7 +193,7 @@ et points de vente habituels</p>
         
         
         <!-- FLOAT NAV RIGHT --> 
-        <div id="rightNavFloat" style="height: 1px;" class="hide-on-small-only red">
+        <div id="rightNavFloat" style="height: 1px;" class="hide-on-small-only">
             <ul class="section table-of-contents">
                 <li><a class="scrollTo black-text" href="#biographie">Biographie</a></li>
                 <li><a class="scrollTo black-text" href="#actualites">Actualités</a></li>

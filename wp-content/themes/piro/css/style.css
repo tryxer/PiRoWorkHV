@@ -4,6 +4,7 @@
 }
 
 html body {
+    height: 100%;
     font-family: "DejaVu Sans"!important;
 }
 
@@ -60,11 +61,6 @@ p.accroche {
 
 
 /* vérifier à quoi ça sert */
-
-#accueil {
-    max-height: calc(100vh - (64px));
-    overflow: hidden;
-}
 
 #accueilExpand {
     /*animation: MoveUpDown 2.8s cubic-bezier(0.22, 0.61, 0.36, 1) infinite;*/
@@ -178,16 +174,6 @@ i.fa-facebook-official {
     padding-bottom: 20px;
     display: block;
     float: right;
-}
-
-#accueil,
-#biographie,
-#actualites,
-#litterature,
-#discographie,
-#galeries,
-#contact {
-    min-height: 850px;
 }
 
 .slogan {
