@@ -79,14 +79,14 @@
             </nav>
 		</div>
 		
-		<section id="accueil" class="scrollspy">
+		<section id="accueil" class="">
 		
 		<div class="row">
 				<img id="image-accueil1" class="responsive-img" src="http://localhost:8888/PiRoWorkHV/wp-content/uploads/2017/10/imageAccueil2.jpg" alt="#" />
 		</div>
 		
 		<div id="accueilExpand" class="show-on-large">
-			<a id="accueilExpandLink" href="#biographie">
+			<a id="accueilExpandLink">
 				<i class="small material-icons light-green-text">expand_more</i>
 			</a>
 		</div>

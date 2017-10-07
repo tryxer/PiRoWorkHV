@@ -9,6 +9,8 @@ jQuery(document).ready(function($) {
     $('.collapsible').collapsible();
     $('.parallax').parallax();
     $('.slider').slider();
+    $('.scrollspy').scrollSpy();
+
     // $('.materialboxed').materialbox();
 
     /* ====================================== */

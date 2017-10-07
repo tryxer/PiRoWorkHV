@@ -194,7 +194,7 @@ et points de vente habituels</p>
         
         <!-- FLOAT NAV RIGHT --> 
         <div id="rightNavFloat" style="height: 1px;" class="hide-on-small-only">
-            <ul class="table-of-contents">
+            <ul class="section table-of-contents">
                 <li><a class=" black-text" href="#biographie">Biographie</a></li>
                 <li><a class=" black-text" href="#actualites">Actualités</a></li>
                 <li><a class=" black-text" href="#litterature">Littérature</a></li>
@@ -206,7 +206,7 @@ et points de vente habituels</p>
 
         <!-- FIN FLOAT NAV RIGHT -->
         <div id="goToTop">
-            <a class="scrollTo" id="goToTopLink" href="#biographie">
+            <a class="" id="goToTopLink" href="#biographie">
                 <i class="small material-icons">expand_less</i>
             </a>
         </div>
