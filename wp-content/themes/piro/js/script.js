@@ -20,7 +20,7 @@ jQuery(document).ready(function($) {
     //$(document).ready(function(){
 
     // scrollTop SmoothScroll //
-    //$('.scrollspy').scrollSpy({ scrollOffset: $("#masthead > div > nav > div").height() + 26 });
+    $('.scrollspy').scrollSpy({ scrollOffset: $("#masthead > div > nav > div").height(), duration: 2000 });
 
     $('.scrollTo').click(function() {
         var page = $(this).attr('href');
@@ -87,8 +87,8 @@ jQuery(document).ready(function($) {
         if ($("div#wpadminbar").is(":visible")) {
             //console.log($("div#wpadminbar").height());
             $("#mobile-demo").css("top", $("div#wpadminbar").height() + $("#masthead > div > nav > div").height());
-            $("#rightNavFloat").css("top", $("div#wpadminbar").height() + $("#masthead > div > nav > div").height());
-            $('.scrollspy').scrollSpy({ scrollOffset: $("#masthead > div > nav > div").height() + $("div#wpadminbar").height() + 26 });
+            //$("#rightNavFloat").css("top", $("div#wpadminbar").height() + $("#masthead > div > nav > div").height());
+            $('.scrollspy').scrollSpy({ scrollOffset: $("#masthead > div > nav > div").height() + $("div#wpadminbar").height(), duration: 2000 });
 
         }
     }

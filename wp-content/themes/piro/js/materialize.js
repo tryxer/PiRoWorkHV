@@ -5088,13 +5088,15 @@ if (Vel) {
            offsetRight : number -> offset from right. Default: 0
            offsetBottom : number -> offset from bottom. Default: 0
            offsetLeft : number -> offset from left. Default: 0
-    			activeClass : string -> Class name to be added to the active link. Default: active
+           activeClass : string -> Class name to be added to the active link. Default: active
+           DefaultDuration : number -> Default: 400
      * @returns {jQuery}
      */
     $.scrollSpy = function(selector, options) {
         var defaults = {
             throttle: 100,
             scrollOffset: 200, // offset - 200 allows elements near bottom of page to scroll
+            duration: 400,
             activeClass: 'active',
             getActiveElement: function(id) {
                 return 'a[href="#' + id + '"]';
@@ -5111,7 +5113,7 @@ if (Vel) {
             $('a[href="#' + $(element).attr('id') + '"]').click(function(e) {
                 e.preventDefault();
                 var offset = $(Materialize.escapeHash(this.hash)).offset().top + 1;
-                $('html, body').animate({ scrollTop: offset - options.scrollOffset }, { duration: 400, queue: false, easing: 'easeOutCubic' });
+                $('html, body').animate({ scrollTop: offset - options.scrollOffset }, { duration: options.duration, queue: false, easing: 'easeOutCubic' });
             });
         });
 

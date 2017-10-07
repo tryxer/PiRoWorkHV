@@ -12,6 +12,10 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+a:focus {
+    outline: none!important;
+}
+
 .side-nav::-webkit-scrollbar {
     display: none;
 }
@@ -137,11 +141,11 @@ i.fa-facebook-official {
     display: none;
     position: fixed;
     right: 0;
-    top: 20%;
+    top: 25%;
 }
 
 #rightNavFloat ul {
-    width: 150px;
+    width: 115px;
 }
 
 .table-of-contents a:hover {

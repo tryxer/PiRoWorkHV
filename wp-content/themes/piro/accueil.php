@@ -48,8 +48,8 @@
         </div>
     </div>
     <!-- Illustration des Slides -->
-    <div id="sliderActualites" class="container row">
-        <div id="slider01" class="slider col s12 m4 l5">
+    <div id="sliderActualites" class=" row">
+        <div id="slider01" class="slider col s12 m4 offset-l1 l4">
             <ul class="slides">
                 <li class="black">
                     <div class="caption left-align black">
@@ -101,7 +101,7 @@ et points de vente habituels</p>
                 <li><img class="responsive-img" src="http://localhost:8888/PiRoWorkHV/wp-content/uploads/2017/10/papillons.jpg"></li>
             </ul>
         </div><!-- Slide 2 -->
-        <div id="facebookIframe" class="col s12 m12 l2">
+        <div id="facebookIframe" class="col s12 m12 l3">
             <span style="vertical-align: right; width: 340px; height: 500px;">
                 <iframe class="iframe-container" src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fherve.vilard.officielle%2F&amp;width=300&amp;height=400&amp;colorscheme=light&amp;show_faces=false&amp;header=true&amp;stream=true&amp;show_border=true" scrolling="no" style="border: none; overflow-x: visible; width: 330px; height: 400px;" allowtransparency="true">
                 </iframe>
@@ -193,9 +193,9 @@ et points de vente habituels</p>
         
         
         <!-- FLOAT NAV RIGHT --> 
-        <div id="rightNavFloat" style="height: 1px;" class="hide-on-small-only">
+        <div id="rightNavFloat" style="height: 1px;" class="hide-on-med-and-down">
             <ul class="section table-of-contents">
-                <li><a class=" black-text" href="#biographie">Biographie</a></li>
+                <li><a class="active black-text" href="#biographie">Biographie</a></li>
                 <li><a class=" black-text" href="#actualites">Actualités</a></li>
                 <li><a class=" black-text" href="#litterature">Littérature</a></li>
                 <li><a class=" black-text" href="#discographie">Discographie</a></li>
