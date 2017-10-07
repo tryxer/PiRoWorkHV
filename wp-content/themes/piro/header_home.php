@@ -33,11 +33,11 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="site ">
+<div id="page" class="site light-blue lighten-5">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'piro' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<div class="navbar-fixed ">
+		<div class="navbar-fixed" id="barreDeMenu">
             <nav>
                 <div class="nav-wrapper row white">
 					<a id="logo" href="#accueil" class="brand-logo col l1 offset-l1"></a>
@@ -80,13 +80,27 @@
 		</div>
 		
 		<section id="accueil" class="scrollspy">
-					<img id="imageAccueil"  data-caption="Hervé Vilard" class="responsive-img" src="http://localhost:8888/PiRoWorkHV/wp-content/uploads/2017/09/14.jpg" alt="#" />
-				
-				<div id="accueilExpand" class="show-on-large">
-					<a id="accueilExpandLink" href="#biographie"><i class="medium material-icons">expand_more</i></a>
-				</div>
 		
-        </section>
+		<div class="row">
+				<img id="image-accueil1" class="responsive-img" src="http://localhost:8888/PiRoWorkHV/wp-content/uploads/2017/10/imageAccueil2.jpg" alt="#" />
+		</div>
+		
+		<div id="accueilExpand" class="show-on-large">
+			<a id="accueilExpandLink" href="#biographie">
+				<i class="small material-icons light-green-text">expand_more</i>
+			</a>
+		</div>
+		
+	</section>
+		
+	<div id="bienvenue" class="container">
+		<div class="row">
+		<p id="grandTexteAccueil" class="flow-text light-green-text col s8 l12">Hervé Vilard</p>
+		<!--div class="row"-->
+			<p id="petitTexteAccueil" class="flow-text light-green-text offset-s4 col s12">Site officiel</p>
+		<!--/div-->
+			</div>
+	</div>
 	</header><!-- #masthead -->
 
 	

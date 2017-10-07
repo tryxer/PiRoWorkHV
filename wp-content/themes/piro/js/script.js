@@ -1,26 +1,72 @@
 // @ts-check
 jQuery(document).ready(function($) {
 
+
     // Initialisation //
     $('select').material_select();
     $('.tooltipped').tooltip({ delay: 50 });
     $('.chips-initial').material_chip('data');
     $('.collapsible').collapsible();
-    // $('.materialboxed').materialbox();
     $('.parallax').parallax();
+    $('.slider').slider();
+    // $('.materialboxed').materialbox();
 
+    /* ====================================== */
+    /* ===  SmoothScroll ==================== */
+    /* ====================================== */
+    /* ====================================== */
+    //$(document).ready(function(){
+    $('.scrollTo').click(function() {
+        var page = $(this).attr('href');
+        var speed = 2000;
+        $('html, body').animate({
+            scrollTop: $(page).offset().top - 100
+        }, speed);
+        return false;
+    });
+    //});
+
+    /* ====================================== */
+    /* === Contrôle du CTA de l'accueil ===== */
+    /* === 'fadeIn' / 'fadeOut' et 'hide' === */
+    /* === / 'show' du goToTop. ====== */
+    /* ====================================== */
+    var speed = 2000;
+    $("#accueilExpand").click(function(e) {
+        e.preventDefault();
+        $("#grandTexteAccueil,#petitTexteAccueil").hide();
+        $("#accueil").fadeOut(speed);
+        $("#biographie").fadeIn(4000);
+        $("#barreDeMenu").fadeIn(4000);
+        $("#rightNavFloat").fadeIn(speed);
+        $("#goToTop").fadeIn(speed);
+    });
+    $("#logo").click(function(e) {
+            e.preventDefault();
+            $("#accueil").fadeIn(speed);
+            $("#grandTexteAccueil", "#petitTexteAccueil").show();
+            $("#rightNavFloat").fadeOut();
+            $("#goToTop").fadeOut(500);
+        })
+        /* ====================================== */
+
+    //
     $('.dropdown-button').dropdown({
         inDuration: 300,
         outDuration: 225,
-        constrainWidth: false, // Does not change width of dropdown to that of the activator
-        //hover: true, // Activate on hover
-        gutter: 0, // Spacing from edge
-        belowOrigin: false, // Displays dropdown below the button
-        alignment: 'left', // Displays dropdown with edge aligned to the left of button
-        stopPropagation: false // Stops event propagation
+        constrainWidth: false,
+        gutter: 0,
+        belowOrigin: false,
+        alignment: 'left',
+        stopPropagation: false
+
     });
 
-    $(".button-collapse").sideNav({
+
+
+
+
+    $('.button-collapse').sideNav({
         menuWidth: 300, // Default is 300
         edge: 'left', // Choose the horizontal origin
         closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
@@ -29,84 +75,9 @@ jQuery(document).ready(function($) {
         onClose: function(el) { /* Do Stuff */ }, // A function to be called when sideNav is closed
     });
 
-    // scrollTop SmoothScroll //
-    $('.scrollspy').scrollSpy({ scrollOffset: $("#masthead > div > nav > div").height() + 26 });
-
-
-    function repositionSideNavIfConected() {
-
-        if ($("div#wpadminbar").is(":visible")) {
-            //console.log($("div#wpadminbar").height());
-            $("#mobile-demo").css("top", $("div#wpadminbar").height() + $("#masthead > div > nav > div").height());
-            $("#rightNavFloat").css("top", $("div#wpadminbar").height() + $("#masthead > div > nav > div").height());
-            $('.scrollspy').scrollSpy({ scrollOffset: $("#masthead > div > nav > div").height() + $("div#wpadminbar").height() + 26 });
-
-        }
-    }
-
-    $(window).resize(function() {
-        repositionSideNavIfConected();
-    });
-
-
-
-    function fadeOutMyElement(offset, fadeElement) {
-
-        var vscroll = $(document).scrollTop();
-
-        console.log(vscroll);
-        console.log(offset);
-        console.log(fadeElement);
-
-        if (vscroll >= offset) {
-            $(fadeElement).fadeOut(500);
-            console.log("fade out");
-
-            return;
-        }
-
-    }
-
-    function fadeInMyElement(offset, fadeElement) {
-
-        $(fadeElement).fadeIn(500);
-
-        fadeOutMyElement(offset, fadeElement);
-    }
-
-
-    var options = [
-        // option pour rightFloatNav
-        {
-            selector: "#accueilExpandLink",
-            offset: 700,
-            callback: function() {
-                console.log("test 1");
-                fadeInMyElement(700, "#rightNavFloat");
-            }
-        },
-        // option pour goToTop
-        {
-            selector: "#biographie",
-            offset: 1000,
-            callback: function() {
-                console.log("test 2");
-                fadeInMyElement(1000, "#goToTop");
-            }
-        }
-    ];
-
-    Materialize.scrollFire(options);
-
-
-
-
-
-
-
-    repositionSideNavIfConected();
-
-
+    //
+    //
+    //
 
 
 });
