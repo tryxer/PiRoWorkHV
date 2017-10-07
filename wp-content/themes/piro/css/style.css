@@ -141,8 +141,17 @@ i.fa-facebook-official {
 }
 
 #rightNavFloat ul {
-    background-color: #FFF!important;
     width: 150px;
+}
+
+.table-of-contents a:hover {
+    border-left: 1px solid #e91e1e;
+}
+
+.table-of-contents a:active {
+    font-weight: 800!important;
+    padding-left: 18px;
+    border-left: 2px solid #e91e1e;
 }
 
 .parallax-container {

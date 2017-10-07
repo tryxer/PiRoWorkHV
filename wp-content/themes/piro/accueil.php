@@ -194,13 +194,13 @@ et points de vente habituels</p>
         
         <!-- FLOAT NAV RIGHT --> 
         <div id="rightNavFloat" style="height: 1px;" class="hide-on-small-only">
-            <ul class="section table-of-contents">
-                <li><a class="scrollTo black-text" href="#biographie">Biographie</a></li>
-                <li><a class="scrollTo black-text" href="#actualites">Actualités</a></li>
-                <li><a class="scrollTo black-text" href="#litterature">Littérature</a></li>
-                <li><a class="scrollTo black-text" href="#discographie">Discographie</a></li>
-                <li><a class="scrollTo black-text" href="#galeries">Galeries</a></li>
-                <li><a class="scrollTo black-text" href="#contact">Contact</a></li>
+            <ul class="table-of-contents">
+                <li><a class=" black-text" href="#biographie">Biographie</a></li>
+                <li><a class=" black-text" href="#actualites">Actualités</a></li>
+                <li><a class=" black-text" href="#litterature">Littérature</a></li>
+                <li><a class=" black-text" href="#discographie">Discographie</a></li>
+                <li><a class=" black-text" href="#galeries">Galeries</a></li>
+                <li><a class=" black-text" href="#contact">Contact</a></li>
             </ul>
         </div>
 

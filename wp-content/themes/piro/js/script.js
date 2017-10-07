@@ -16,6 +16,10 @@ jQuery(document).ready(function($) {
     /* ====================================== */
     /* ====================================== */
     //$(document).ready(function(){
+
+    // scrollTop SmoothScroll //
+    //$('.scrollspy').scrollSpy({ scrollOffset: $("#masthead > div > nav > div").height() + 26 });
+
     $('.scrollTo').click(function() {
         var page = $(this).attr('href');
         var speed = 2000;
@@ -25,6 +29,7 @@ jQuery(document).ready(function($) {
         return false;
     });
     //});
+
 
     /* ====================================== */
     /* === Contrôle du CTA de l'accueil ===== */
@@ -62,10 +67,6 @@ jQuery(document).ready(function($) {
 
     });
 
-
-
-
-
     $('.button-collapse').sideNav({
         menuWidth: 300, // Default is 300
         edge: 'left', // Choose the horizontal origin
@@ -76,8 +77,24 @@ jQuery(document).ready(function($) {
     });
 
     //
-    //
+    // REPOSITION SIDENAV IF Admin is conected
     //
 
+    function repositionSideNavIfConected() {
+
+        if ($("div#wpadminbar").is(":visible")) {
+            //console.log($("div#wpadminbar").height());
+            $("#mobile-demo").css("top", $("div#wpadminbar").height() + $("#masthead > div > nav > div").height());
+            $("#rightNavFloat").css("top", $("div#wpadminbar").height() + $("#masthead > div > nav > div").height());
+            $('.scrollspy').scrollSpy({ scrollOffset: $("#masthead > div > nav > div").height() + $("div#wpadminbar").height() + 26 });
+
+        }
+    }
+
+    $(window).resize(function() {
+        repositionSideNavIfConected();
+    });
+
+    repositionSideNavIfConected();
 
 });
